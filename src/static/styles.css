@@ -197,6 +197,23 @@ footer {
   white-space: nowrap;
 }
 
+/* Delete (unregister) button for participants */
+.delete-btn {
+  margin-left: auto;
+  background: transparent;
+  border: none;
+  color: #c62828;
+  font-size: 18px;
+  line-height: 1;
+  cursor: pointer;
+  padding: 4px 6px;
+  border-radius: 4px;
+}
+
+.delete-btn:hover {
+  background-color: rgba(198, 40, 40, 0.08);
+}
+
 /* Small helper message inside cards */
 .activity-card .info {
   margin-top: 8px;
