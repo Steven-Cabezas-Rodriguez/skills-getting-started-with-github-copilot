@@ -142,3 +142,85 @@ footer {
   padding: 20px;
   color: #666;
 }
+
+/* Participants section styling */
+.participants {
+  margin-top: 12px;
+}
+
+.participants h5 {
+  margin: 8px 0;
+  font-size: 14px;
+  color: #1a237e;
+  border-bottom: 1px solid #eee;
+  padding-bottom: 6px;
+}
+
+.participants-list {
+  list-style: none;
+  padding-left: 0;
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.participant-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 6px 8px;
+  border-radius: 6px;
+  background: linear-gradient(180deg, #ffffff, #fbfcff);
+  border: 1px solid #eef2ff;
+  font-size: 14px;
+  color: #333;
+}
+
+.avatar {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 30px;
+  height: 30px;
+  background-color: #e8eaf6;
+  color: #1a237e;
+  border-radius: 50%;
+  font-weight: 700;
+  font-size: 13px;
+  flex-shrink: 0;
+}
+
+.participant-name {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+/* Delete (unregister) button for participants */
+.delete-btn {
+  margin-left: auto;
+  background: transparent;
+  border: none;
+  color: #c62828;
+  font-size: 18px;
+  line-height: 1;
+  cursor: pointer;
+  padding: 4px 6px;
+  border-radius: 4px;
+}
+
+.delete-btn:hover {
+  background-color: rgba(198, 40, 40, 0.08);
+}
+
+/* Small helper message inside cards */
+.activity-card .info {
+  margin-top: 8px;
+  padding: 8px;
+  border-radius: 4px;
+  background-color: #f1f8ff;
+  color: #0c5460;
+  border: 1px solid #dbefff;
+  font-size: 13px;
+}
